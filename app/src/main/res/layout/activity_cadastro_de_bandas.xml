@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cadastro.CadastroDeBandas">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/edTNomeBd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nome da Banda"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/IntegrantesBd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Integrantes"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/GeneroBd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Genero"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextPrecoBd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Preço"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextCargaHorariaBd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Carga horária"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editTextDescrcaoBd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Descrição da Banda"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editTextEmailBd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editTextTelefoneBd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Telefone"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editTextCpfBd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="CPF"
+            android:inputType="textEmailAddress" />
+
+
+        <Spinner
+            android:id="@+id/spinnerBd"
+            android:layout_width="match_parent"
+            android:layout_height="41dp" />
+
+        <Button
+            android:id="@+id/btSalvarBd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#98282a"
+
+
+            android:text="Salvar"
+            android:textColor="@android:color/background_light" />
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_carregar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            />
+
+    </FrameLayout>
+
+</FrameLayout>

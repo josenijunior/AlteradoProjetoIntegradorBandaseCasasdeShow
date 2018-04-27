@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item android:title="Nome User" />
+    </group>
+        <item android:title="Outros">
+            <menu>
+                <item android:title="configurações"
+                    android:id="@+id/id_configuracaobd"
+                    android:icon="@drawable/ic_action_configuration"/>
+                <item android:title="sobre a banda"
+                    android:id="@+id/id_sobrebd"/>
+                <item android:title="músicas"
+                    android:id="@+id/id_musicasbd"/>
+                <item android:title="sair"
+                    android:id="@+id/id_sairbd"/>
+                <item android:title="ajuda"
+                    android:id="@+id/id_ajudabd"/>
+            </menu>
+        </item>
+
+</menu>

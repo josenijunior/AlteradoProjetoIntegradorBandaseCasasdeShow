@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "869229871342",
+    "firebase_url": "https://casadeshowebandas.firebaseio.com",
+    "project_id": "casadeshowebandas",
+    "storage_bucket": "casadeshowebandas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869229871342:android:ba9bdcafc05b3f7a",
+        "android_client_info": {
+          "package_name": "com.appdigital.projetointegradorbandasecasasdeshow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869229871342-amlfns9urmd7j2ucofvmbo8i5dpbo7f8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appdigital.projetointegradorbandasecasasdeshow",
+            "certificate_hash": "d5ee8c59fe61662773d9ebd10053b4640f1fdb89"
+          }
+        },
+        {
+          "client_id": "869229871342-di3ct73eq5g1p5krpapeob87r0b6ilrk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appdigital.projetointegradorbandasecasasdeshow",
+            "certificate_hash": "f46d04ff3d626c32f520edf6f96060be5d061b4e"
+          }
+        },
+        {
+          "client_id": "869229871342-l2ksuh8qdub2uf004rp8l1n0bvbkf351.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDb7WU1XYEHiE2BTt89Ko-PPOGOiln3ETM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869229871342-l2ksuh8qdub2uf004rp8l1n0bvbkf351.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
