@@ -81,6 +81,7 @@ public class Cadastro_De_Novo_Usuario extends AppCompatActivity {
                 limparCampos();
                 Intent intent =new Intent(Cadastro_De_Novo_Usuario.this, Usuario_Casa_Show.class);
                 startActivity(intent);
+                finish();
 
 
 
